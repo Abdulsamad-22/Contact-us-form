@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Contact form</title>
+
+</head>
+<body>
+
+  <main>
+
+    <div class="success-container"></div>
+
+    <div class="form-container">
+      <h2>
+        Contact Us
+      </h2>
+
+      <div class="names-container">
+          <div class="name-container">
+            <label class="field-labels">
+              First Name *
+            </label>
+
+            <input class="name-input" type="text">
+          </div>
+
+          <div class="name-container">
+            <label class="field-labels">
+              Last Name *
+            </label>
+
+            <input class="name-input" type="text">
+          </div>
+      </div>
+
+      <div class="email-container">
+        <label class="field-labels">
+          Email Address *
+        </label>
+
+        <input class="email-input" type="text">
+      </div>
+
+      <div class="query-type-container">
+        <label class="field-labels">
+          Query type *
+        </label>
+
+        <div class="query-types">
+          <div class="query-container">
+            <label class="test-holder">
+             <input class="js-radio radio" type="radio" name="query" value="">
+            </label>
+            General query 
+          </div>
+  
+          <div class="query-container">
+            <label class="test-holder">
+              <input class="js-radio radio" type="radio" name="query" value="">
+            </label>
+            Support query 
+          </div>
+        </div>
+      </div>
+
+      <div class="message-container">
+        <label class="field-labels">
+          Message *
+        </label>
+        <div class="message-box" contenteditable="true"> </div>
+      </div>
+
+      <div class="check-box-container">
+        <label class="check-list">
+          <input class="check-box" type="checkbox">
+          I consent to being contacted by the team *
+        </label>
+      
+      </div>
+
+      <button class="cta">Submit</button>
+
+    </div>
+
+  </main>
+
+<!--
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Abdulsamad</a>.
+  </div>
+  -->
+
+  <script src="script.js"></script>
+</body>
+</html>
